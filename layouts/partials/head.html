@@ -42,6 +42,9 @@
 	<link rel="microsub" href="https://micro.blog/microsub" />
 	<link rel="webmention" href="https://micro.blog/webmention" />
 	<link rel="subscribe" href="https://micro.blog/users/follow" />
+
+	<link href="{{ "assets/css/dark.css" | relURL }}?{{ .Site.Params.theme_seconds }}" rel="stylesheet">
+
     {{ range .Site.Params.plugins_css }}
 	    <link rel="stylesheet" href="{{ . }}" />
     {{ end }}

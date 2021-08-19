@@ -24,7 +24,7 @@ html, body {
 
 body {
 	font: 17px "Avenir Next", Avenir, "-apple-system", Helvetica, Arial, sans-serif;
-	color: #666;
+	color: hsl(0, 0%, 40%);
 	text-rendering: optimizeLegibility;
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 .profile h4 {
-	color: #aaa;
+	color: hsl(0, 0%, 67%);
 	margin-top: 0;
 	font-weight: 400;
 }
@@ -62,8 +62,8 @@ body {
 
 nav.main-nav {
 	padding: 20px 20px 0;
-	background: #fff;
-	background: rgba(255,255,255,.90);
+	background: hsl(0, 0%, 100%);
+	background: hsla(0, 0%, 100%, 0.9);
 	margin: 0 auto;
 	text-align: right;
 	z-index: 100;
@@ -72,25 +72,25 @@ nav.main-nav {
 nav.main-nav a {
 	top: 8px;
 	right: 6px;
-	color: #000;
+	color: hsl(0, 0%, 0%);
 	font-size: 13px;
 	line-height: 1.35;
 	font-weight: 500;
 	margin-left: 12px;
 }
 nav.main-nav a.cta {
-	background: #fff;
-	color: #ee4792;
+	background: hsl(0, 0%, 100%);
+	color: hsl(333, 83%, 61%);
 	padding: 6px 14px;
-	border: 2px solid #fcdae9;
+	border: 2px solid hsl(334, 85%, 92%);
 	border-bottom: none;
 	border-radius: 20px;
 	white-space: nowrap;
 }
 
 nav.main-nav a.cta:hover {
-	background: #fcdae9;
-	color: #ee4792;
+	background: hsl(334, 85%, 92%);
+	color: hsl(333, 83%, 61%);
 	margin-left: 12px;
 }
 
@@ -113,7 +113,7 @@ p, li {
 }
 
 h1, h2, h3 {
-	color: #000;
+	color: hsl(0, 0%, 0%);
 }
 
 h1 {
@@ -137,11 +137,11 @@ p.small {
 }
 
 code.highlighter-rouge {
-	background-color: #F5F5F5;
+	background-color: hsl(0, 0%, 96%);
 	border-radius: 5px;
 	display: inline-block;
 	padding: 5px 8px;
-	color: #7F7F7F;
+	color: hsl(0, 0%, 50%);
 	font-size: 15px;
 	line-height: 1.35;
 	font-style: italic;
@@ -151,19 +151,19 @@ code.highlighter-rouge {
 
 a {
 	text-decoration: none;
-	color: #000;
+	color: hsl(0, 0%, 0%);
 }
 
 nav.main-nav a, #footer a, #post-nav a, p a {
-	color: #000;
+	color: hsl(0, 0%, 0%);
 	font-weight: 500;
-	box-shadow: inset 0 -2px 0 #fcdae9;
+	box-shadow: inset 0 -2px 0 hsl(334, 85%, 92%);
 	transition: all .35s;
   transition-timing-function: cubic-bezier(.7, 0, .3, 1);
 }
 
 nav.main-nav a:hover, #footer a:hover, #post-nav a:hover, p a:hover {
-	box-shadow: inset 0 -25px 0 #fcdae9;
+	box-shadow: inset 0 -25px 0 hsl(334, 85%, 92%);
 }
 
 
@@ -196,7 +196,7 @@ article ul li {
 
 b, strong {
 	font-weight: 500;
-  color: #1E2025;
+  color: hsl(223, 10%, 13%);
 }
 em, i {
 	font-style: italic;
@@ -213,7 +213,7 @@ sup {
 
 blockquote {
 	padding-left: 15px;
-	border-left: 2px solid #eee;
+	border-left: 2px solid hsl(0, 0%, 93%);
 	opacity: 0.8;
 	font-style: italic;
   	margin-top: 15px;
@@ -224,7 +224,7 @@ hr {
 	border: none;
 	height: 2px;
 	margin: 34px 0 40px 0;
-	background: #eee;
+	background: hsl(0, 0%, 93%);
 	width: 30%;
 	text-align: center;
 }
@@ -238,7 +238,7 @@ span.separator {
 span.divider {
 	display: block;
 	width: 100%;
-	background-color: #eee;
+	background-color: hsl(0, 0%, 93%);
 	height: 1px;
 	margin: 0 auto;
 }
@@ -247,21 +247,21 @@ span.separator:last-child {
 	display: none;
 }
 
-span.code { font-family:Menlo, Monaco, Courier; background-color:#EEE; font-size:14px; }
+span.code { font-family:Menlo, Monaco, Courier; background-color:hsl(0, 0%, 93%); font-size:14px; }
 
 pre	{
 	font-family:Menlo, Monaco, Courier;
 	white-space:pre-wrap;
 	padding:20px;
-	background-color:#fdfdfd;
+	background-color:hsl(0, 0%, 99%);
 	overflow:auto;
 	border-radius: 5px;
-	background: #272b2d;
+	background: hsl(200, 7%, 16%);
   font-family: "Source Code Pro",Menlo,monospace;
   font-size: 13px;
   line-height: 1.5em;
   font-weight: 500;
-	color: #d0d4d7;
+	color: hsl(206, 8%, 83%);
   margin-top: 15px;
 }
 
@@ -287,11 +287,11 @@ table td,td {
 }
 
 tr>td {
-	border-top: 1px solid #eaeaea;
+	border-top: 1px solid hsl(0, 0%, 92%);
 }
 
 tr:nth-child(odd)>td {
-	background: #fcfcfc;
+	background: hsl(0, 0%, 99%);
 }
 
 thead th,th {
@@ -300,8 +300,8 @@ thead th,th {
 	height: 20px;
 	font-size: 13px;
 	font-weight: bold;
-	color: #444;
-	border-bottom: 1px solid #dadadc;
+	color: #444444;
+	border-bottom: 1px solid hsl(240, 3%, 86%);
 	cursor: default;
 	white-space: nowrap;
 }
@@ -359,22 +359,22 @@ footer #wrapper {
 	font-size: 13px;
 	font-weight: bold;
 	line-height: 1.5;
-	border-top: 1px solid #eee;
+	border-top: 1px solid hsl(0, 0%, 93%);
 	padding-top: 40px;
 	padding-bottom: 40px;
 	margin-top: 60px;
-	color:#444;
-	border-bottom: 1px solid #eee;
+	color:hsl(0, 0%, 27%);
+	border-bottom: 1px solid hsl(0, 0%, 93%);
 }
 
 #post-meta div span {
-	color: #aaa;
+	color: hsl(0, 0%, 67%);
 	font-weight: 500;
 	display: block;
 }
 
 #post-meta div span.dark {
-	color: #1E2025;
+	color: hsl(223, 10%, 13%);
 
 }
 
@@ -384,7 +384,7 @@ footer #wrapper {
 
 /* Post Page */
 #header {
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid hsl(0, 0%, 93%);
 }
 
 .post {
@@ -422,7 +422,7 @@ footer #wrapper {
   width: 36px;
   float: left;
   margin-right: 15px;
-  box-shadow: 0 0 0 3px #fff, 0 0 0 4px #eee;
+  box-shadow: 0 0 0 3px hsl(0, 0%, 100%), 0 0 0 4px hsl(0, 0%, 93%);
 	border-radius: 50%;
 }
 
@@ -431,7 +431,7 @@ footer #wrapper {
 .dates {
 	font-weight: 500;
 	font-size: 13px;
-	color: #bbb;
+	color: hsl(0, 0%, 73%);
 	width: 100%;
 	text-transform: uppercase;
 	padding-top: 5px;
@@ -450,7 +450,7 @@ h2.headline {
 	font-size: 13px;
 	font-weight: 400;
 	padding-left: 12px;
-	border: 2px solid #eee;
+	border: 2px solid hsl(0, 0%, 93%);
 	margin-top: 20px;
 	border-radius: 17px;
 	-webkit-appearance: none;
@@ -505,7 +505,7 @@ video {
     margin-left: auto;
     margin-right: auto;
 	font-size: 13px;
-	color: #bbb;
+	color: hsl(0, 0%, 73%);
     text-align: center;
 }
 

@@ -1,0 +1,107 @@
+@media (prefers-color-scheme: dark) {
+	/* GENERAL */
+	body {
+		color: hsl(218, 27%, 94%);
+		background: hsl(219, 23%, 22%);
+	}
+
+	h1, h2, h3 {
+		color: hsl(218, 27%, 94%);
+	}
+
+	a, p a, ul a, ol a {
+		color: hsl(193, 43%, 67%);
+		transition: none !important;
+		box-shadow: none !important;
+	}
+
+	span.divider {
+		background-color: hsl(210, 34%, 63%);
+	}
+
+
+	/* NAVIGATION */
+
+	nav.main-nav a {
+		transition: none !important;
+		box-shadow: none !important;
+	}
+
+	nav.main-nav {
+		background: hsl(220, 23%, 23%);
+		padding: 12px 20px 12px 0;
+		position: sticky;
+		top: 0;
+	}
+
+	nav.main-nav a {
+		color: hsl(193, 43%, 67%);
+	}
+
+	nav.main-nav a:hover {
+		color: hsl(194, 43%, 75%);
+	}
+
+	nav.main-nav a.cta {
+		background: hsl(220, 23%, 23%);
+		color: hsl(193, 43%, 67%);
+		border: 2px solid hsl(193, 43%, 67%);
+	}
+
+	nav.main-nav a.cta:hover {
+		color: hsl(220, 23%, 23%);
+		background-color: hsl(194, 43%, 75%);
+		border: 2px solid hsl(194, 43%, 75%);
+	}
+
+	/* POST */
+
+	#post-nav a {
+		transition: none !important;
+		box-shadow: none !important;
+	}
+
+	#post-meta div span.dark {
+		color: #CFD2B2;	
+	}
+
+	#post-meta div a {
+		color: hsl(193, 43%, 67%);
+	}
+
+	#post-meta div a:hover {
+		color: hsl(194, 43%, 75%);
+	}
+
+	#post-nav a {
+		color: #CFD2B2;
+		font-weight: bold;
+	}
+
+	#post-meta {
+		border-color: hsl(221, 23%, 32%) !important;
+	}
+
+	.dates {
+		color: hsl(193, 43%, 67%);
+	}
+
+	.dates:hover {
+		color: hsl(194, 43%, 75%);
+	}
+
+	/* FOOTER */
+
+	#footer a {
+		transition: none !important;
+		box-shadow: none !important;
+	}
+
+	#footer a {
+		color: hsl(193, 43%, 67%);
+	}
+
+	#footer a:hover {
+		color: hsl(194, 43%, 75%);
+	}
+}
