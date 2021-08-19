@@ -2,7 +2,7 @@
 	/* GENERAL */
 	body {
 		color: hsl(218, 27%, 94%);
-		background: hsl(219, 23%, 22%);
+		background: hsl(220, 23%, 23%);
 	}
 
 	h1, h2, h3 {
@@ -28,7 +28,7 @@
 	}
 
 	nav.main-nav {
-		background: hsl(220, 23%, 23%);
+		background: hsl(219, 23%, 22%);
 		padding: 12px 20px 12px 0;
 		position: sticky;
 		top: 0;
